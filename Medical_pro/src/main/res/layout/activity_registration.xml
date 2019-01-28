@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.RegistrationActivity"
+    android:background="@mipmap/login">
+
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:text="Sign Up"
+        android:layout_marginLeft="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/NameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/NameEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameTxt"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/EmailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/NameEdit"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/EmailEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmailTxt"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MoNoTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/EmailEdit"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/MoNoEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MoNoTxt"
+        android:layout_marginLeft="150dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/PassTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@id/MoNoEdit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/PassEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PassTxt"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PassEdit"
+        android:layout_marginLeft="200dp"
+        android:text="Register"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

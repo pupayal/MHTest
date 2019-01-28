@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.LoginActivity"
+    android:background="@mipmap/login">
+
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+
+        android:text="Login"
+        android:layout_marginLeft="25dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/UserTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/UserEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserTxt"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/PassTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@id/UserEdit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/PassEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PassTxt"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fergot Password"
+        android:layout_below="@id/PassEdit"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgot"
+        android:layout_marginLeft="180dp"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/RegBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Register? Create Account"
+        android:layout_below="@id/Login"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
